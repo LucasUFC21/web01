@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 
 //import OlaMundo from "./components/OlaMundo"
@@ -27,13 +27,13 @@ function App() {
     <div className="App">
       <Disciplina titulo='Fundamentos de Programação'>
         <Estudante
-          nome="Jefferson"
-          curso="Design Digital"
+          nome="Lucas Martins"
+          curso="Redes de Computadores"
           universidade="UFC Quixadá"
         />
         <Estudante
-          nome="Wladimir"
-          curso="Design Digital"
+          nome="Marcos"
+          curso="Redes de Computadores"
           universidade="UFC Quixadá"
         />
       </Disciplina>
@@ -59,8 +59,8 @@ function App() {
   return (
     <div className="App">
       <Estudante
-        nome="Jefferson"
-        curso="Design Digital"
+        nome="Lucas Martins"
+        curso="Rdes de Computadores"
         universidade="UFC Quixadá" 
       />
       <StrangerThings.Vecna />
