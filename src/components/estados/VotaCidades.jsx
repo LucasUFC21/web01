@@ -2,33 +2,33 @@ import { useState } from "react"
 
 const VotaCidades = () => {
 
-    const [quixada,setcontaquixada] = useState(0)
-    const [limoeiro,setcontalimoeiro] = useState(0)
-    const [crateus,setcontacrateus] = useState(0)
+    const [quixada, setcontaquixada] = useState(0)
+    const [limoeiro, setcontalimoeiro] = useState(0)
+    const [crateus, setcontacrateus] = useState(0)
 
-    const votarquixada = ()=> {
+    const votarquixada = () => {
         setcontaquixada(quixada + 1)
     }
 
-    const votarlimoeiro = ()=> {
+    const votarlimoeiro = () => {
         setcontalimoeiro(limoeiro + 1)
     }
 
-    const votarcrateus = ()=> {
+    const votarcrateus = () => {
         setcontacrateus(crateus + 1)
     }
 
-        const cidadecampea = ()=> {
-            if (crateus > limoeiro && crateus > quixada){
-                    alert("Cratéus Ficou no Top 1!!")
-            } else if (quixada > limoeiro && quixada > crateus){
-                    alert("Quixadá Ficou no Top 1!!")
-            } else if (limoeiro > crateus && limoeiro > quixada){
-                    alert("Límoeiro do Norte Ficou no Top 1!!")
-            } else {
-                    alert("Houver um empate mais de uma cidade no top 1!!")
-            }
+    const cidadecampea = () => {
+        if (crateus > limoeiro && crateus > quixada) {
+            alert("Cratéus Ficou no Top 1!!")
+        } else if (quixada > limoeiro && quixada > crateus) {
+            alert("Quixadá Ficou no Top 1!!")
+        } else if (limoeiro > crateus && limoeiro > quixada) {
+            alert("Límoeiro do Norte Ficou no Top 1!!")
+        } else {
+            alert("Houver um empate mais de uma cidade no top 1!!")
         }
+    }
 
     return (
         <div>

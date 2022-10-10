@@ -12,15 +12,38 @@ function calculadora(props){
         return x - y
     }
 
+    function multiplicacao(){
+        return x * y
+    }
+
+    function divisao(){
+        return x / y
+    }
+  
     if (op === "SOMA")
         return (
             <div>
                 A soma é {soma()}
             </div>
         )
+
+    if (op === "SUB")
+        return (
+            <div>
+                A subtração é {subtracao()}
+            </div>
+        )
+
+    if (op === "MULTI")
+        return (
+            <div>
+                A multiplação é {multiplicacao()}
+            </div>
+        )
+  
     return (
         <div>
-            A diferença é {subtracao()}
+            A divisão é {divisao()}
         </div>
     )
 }

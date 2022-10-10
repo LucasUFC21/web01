@@ -22,11 +22,13 @@ const estudante = ({nome,curso,universidade,disciplina}) => {
     
     return (
         <div>
+            <br />
             Nome: {nome}<br />
             Curso: {curso}<br />
             Universidade: {universidade}<br />
-            Disciplina: {disciplina}
+            Disciplina: {disciplina}<br />
         </div>
     )
 }
+
 export default estudante

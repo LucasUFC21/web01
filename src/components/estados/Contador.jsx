@@ -2,7 +2,7 @@ import { useState } from "react"
 
 const Contador = ()=> {
     
-    const [contador,setContador] = useState(100)
+    const [contador,setContador] = useState(0)
     const [sena,setSena] = useState(false)
     //let contador = 0
 
